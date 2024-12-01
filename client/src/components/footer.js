@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import GitHub from '../assets/icons/github-icon.png';
 import LinkedIn from '../assets/icons/linkedin-icon.png';
 import '../styles/style.css'
@@ -32,7 +31,7 @@ function Footer() {
         </div>
         <div className='sub-footer2'/>
         <div className='sub-footer3'>
-            <h5>© Copyright 2024 . Made by Akash Chopade</h5>
+            <h5>&copy; 2024 Akash Chopade. All Rights Reserved.</h5>
         </div>
     </footer>
   );

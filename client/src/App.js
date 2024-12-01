@@ -28,14 +28,17 @@ function SectionWithAnimation({ id, children }) {
           }
         });
       },
-      { threshold: 0.2 } // Trigger when 50% of the section is visible
+      { threshold: 0.2 }
     );
-    if (sectionRef.current) {
-      observer.observe(sectionRef.current);
+
+    const currentRef = sectionRef.current; // Store reference in a variable
+    if (currentRef) {
+      observer.observe(currentRef);
     }
+
     return () => {
-      if (sectionRef.current) {
-        observer.unobserve(sectionRef.current);
+      if (currentRef) {
+        observer.unobserve(currentRef);
       }
     };
   }, []);
