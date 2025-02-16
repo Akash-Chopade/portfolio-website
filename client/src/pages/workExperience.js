@@ -55,7 +55,6 @@ const WorkExperience = () => {
               contentArrowStyle={{ borderRight: '7px solid #1d3557' }}
               date={exp.duration}
               iconStyle={{
-                background: '#7843E9',
                 color: '#fff',
                 display: 'flex',
                 alignItems: 'center',
