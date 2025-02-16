@@ -39,12 +39,9 @@ function About() {
                 <Skill skill="JavaScript"/>
                 <Skill skill="DotNet"/>
                 <Skill skill="NodeJs"/>
-                <Skill skill="MS SQL"/>
-                <Skill skill="GIt"/>
-                <Skill skill="GitHub"/>
-                <Skill skill="Mongo"/>
+                <Skill skill="SQL"/>
+                <Skill skill="Git"/>
                 <Skill skill="Docker"/>
-                <Skill skill="CICD"/>
             </div>
         </div>
       </div>

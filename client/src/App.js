@@ -4,6 +4,7 @@ import Footer from './components/footer.js';
 import About from './pages/about.js';
 import Projects from './pages/projects.js';
 import Contact from './pages/contact.js';
+import WorkExperience from './pages/workExperience.js';
 import './styles/style.css';
 
 function Home() {
@@ -62,6 +63,9 @@ function App() {
         <Home />
         <SectionWithAnimation id="about">
           <About />
+        </SectionWithAnimation>
+        <SectionWithAnimation id="work-experience">
+          <WorkExperience />
         </SectionWithAnimation>
         <SectionWithAnimation id="projects">
           <Projects />

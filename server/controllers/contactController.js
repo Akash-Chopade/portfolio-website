@@ -97,7 +97,24 @@ exports.handleContactForm = async (req, res) => {
 
         // Send the email
         await transporter.sendMail(mailOptions);
+        
+        const mailResponse = {
+            from: process.env.EMAIL_USER,
+            to: email,
+            subject: "Thank You for Reaching Out!",
+            html: `
+                <p>Hi there,</p>
+                <p>Thank you for getting in touch! I appreciate you reaching out through my portfolio site. I'll review your message and respond as soon as possible.</p>
+                <p>In the meantime, feel free to connect with me on <a href="https://www.linkedin.com/in/akash-chopade-b130221b1/">LinkedIn</a> or check out my projects on <a href="https://github.com/Akash-Chopade">GitHub</a>.</p>
+                <p>Best regards,<br>
+                <strong>Akash Chopade</strong><br>
+                [Software Developer]<br>
+                <a href="https://akashchopade.netlify.app/">https://akashchopade.netlify.app/</a></p>
+            `,
+        };        
 
+        await transporter.sendMail(mailResponse);
+        
         // Send a successful response
         res.status(200).json({ message: 'Form submitted successfully, and email sent!' });
 

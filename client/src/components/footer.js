@@ -21,7 +21,7 @@ function Footer() {
                         </a>
                     </li>
                     <li>
-                        <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/in/akash-chopade-b130221b1/" target="_blank" rel="noopener noreferrer">
                             <img src={LinkedIn} alt="LinkedIn Profile" />
                         </a>
                     </li>

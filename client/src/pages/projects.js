@@ -12,12 +12,23 @@ const ProjectsSection = () => {
       liveLink: "#",
     },
     {
-      title: "E-commerce App",
+      title: "Weed Detection using Image Processing",
       overview:
-        "A full-stack e-commerce application with user authentication and payment integration.",
-      skills: ["React", "Node.js", "MongoDB", "Stripe"],
-      githubLink: "https://github.com/Akash-Chopade",
-      liveLink: "https://ecommerce-app-link.com",
+        "Built a system using YOLO V3 (CNN) to detect weed percentage in an image and provide solutions.",
+      skills: ["Python", "YOLO V3", "HTML", "CSS", "SQLite"],
+    },
+    {
+      title: "Online Result Portal",
+      overview:
+        "Developed a secure online portal for students to check their results.",
+      skills: ["PHP", "JavaScript", "HTML", "CSS", "MySQL"],
+      githubLink: "https://github.com/Akash-Chopade/Mini-Project-Online-Result-Portal-",
+    },
+    {
+      title: "Web Scraping - Weather Data with Python",
+      overview:
+        "Scraped real-time weather data from Times of India and displayed it based on the city.",
+      skills: ["Python", "BeautifulSoup", "Requests"],
     },
   ];
 

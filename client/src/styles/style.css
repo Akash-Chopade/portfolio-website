@@ -133,7 +133,13 @@
     background: #fafafa;
 }
 
-.about-section h1, .contact-section h1, .projects-section h1{
+.workexperience-section{
+    width: auto;
+    margin: 30px;
+    padding-top: 50px;
+}
+
+.about-section h1, .contact-section h1, .projects-section h1, .workexperience-section h1{
     font-family: 'Source Sans Pro', sans-serif;
     display: block;
     font-size: 2rem;
@@ -600,12 +606,13 @@ section {
         text-transform: capitalize;
     }
 
-    .about-section h1, .contact-section h1, .projects-section h1{
+    .about-section h1, .contact-section h1, .projects-section h1, .workexperience-section h1{
         font-size: 1.1rem;
     }
 
     .about-subheader, .contact-subheader, .projects-subheader{
         font-size: 0.8rem;
+        font-family: 'Source Sans Pro', sans-serif;
     }
     
     .about-block{
