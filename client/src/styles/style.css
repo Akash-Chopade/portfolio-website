@@ -137,6 +137,8 @@
     width: auto;
     margin: 30px;
     padding-top: 50px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
 }
 
 .about-section h1, .contact-section h1, .projects-section h1, .workexperience-section h1{
@@ -616,7 +618,7 @@ section {
     }
     
     .about-block{
-        width: 335px;
+        width: auto;
         gap: 10px;
         flex-direction: column;
     }
@@ -627,11 +629,46 @@ section {
 
     .about-container, .about-skills{
         width: 320px;
-        padding: 0px    ;
+        padding: 0px;
+    }
+
+    .about-details{
+        text-align: justify;
+    }
+
+    .about-skills h3{
+        text-align: center;
+    }
+
+    .skills{
+        justify-content: center;
+    }
+
+    .workexperience-section{
+        margin: 30px 20px;
+    }
+
+    .vertical-timeline {
+        margin: 0px;
+    }
+
+    .vertical-timeline-element-content {
+        position: relative;
+        right: 10px;
+        width: 250px;
+    }
+
+    .projects-container{
+        gap: 30px;
     }
 
     .main-footer{
         padding: 15px;
+    }
+
+    .contact-container{
+        padding: 2rem;
+        width: 250px;
     }
 
     .sub-footer1{
