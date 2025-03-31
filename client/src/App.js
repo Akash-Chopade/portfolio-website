@@ -5,6 +5,7 @@ import About from './pages/about.js';
 import Projects from './pages/projects.js';
 import Contact from './pages/contact.js';
 import WorkExperience from './pages/workExperience.js';
+import Button from './components/button.js';
 import './styles/style.css';
 
 function Home() {
@@ -12,6 +13,7 @@ function Home() {
     <section id="home" className="home-section">
       <h1>Hey! I'm Akash Chopade</h1>
       <p>A Result-Oriented Software Engineer building and managing Websites and Web Applications that lead to the success of the overall product</p>
+      <a href='https://drive.google.com/file/d/1zSgp2A9TU3cDpQk2h8C9BjpA78XIF_W6/view?usp=sharing' target="_blank"><Button label="Resume"/></a>
     </section>
   );
 }
