@@ -32,16 +32,15 @@ function About() {
         <div className='about-skills'>
             <h3>My Skills</h3>
             <div className='skills'>
+                <Skill skill="C#"/>
+                <Skill skill="DotNet"/>
                 <Skill skill="HTML"/>
                 <Skill skill="CSS"/>
                 <Skill skill="React"/>
                 <Skill skill="Python"/>
                 <Skill skill="JavaScript"/>
-                <Skill skill="DotNet"/>
-                <Skill skill="NodeJs"/>
                 <Skill skill="SQL"/>
                 <Skill skill="Git"/>
-                <Skill skill="Docker"/>
             </div>
         </div>
       </div>

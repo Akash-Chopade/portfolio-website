@@ -197,7 +197,7 @@
     padding: 20px;
 }
 
-.button-block{
+.button-block {
     font-family: 'Source Sans Pro', sans-serif;
     background: #7843E9;
     color: #fff;
@@ -206,10 +206,20 @@
     border-radius: 5px;
     width: fit-content;
     cursor: pointer;
+    border: none;
+    outline: none;
+    transition: all 0.3s ease; /* Adds a smooth transition */
 }
 
-.button-block:hover{
+.button-block:hover {
     background: #563892;
+    transform: scale(1.1); /* Slight scale effect */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+.button-block:active {
+    transform: scale(1); /* Reset the scale when clicked */
+    box-shadow: none; /* Remove shadow on click */
 }
 
 .about-skills{
