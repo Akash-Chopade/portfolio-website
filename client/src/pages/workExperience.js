@@ -12,10 +12,10 @@ const experiences = [
     duration: 'Dec 2024 – Present',
     location: 'Bangalore, India',
     responsibilities: [
-        "Led SQL migration project, managing connection strings, service accounts, and ensuring Hangfire job execution.",
-        "Worked on Jenkins pipeline to fetch the latest build branch, resolving SCM team challenges.",
-        "Resolved multiple CI/CD pipeline failures, ensuring smooth automated deployments.",
-        "Modified deployment scripts, including URL changes and debugging various deployment errors."
+        "Leading an enterprise-grade SQL Server migration, coordinating with DBAs and infrastructure teams to ensure data accuracy, service continuity, and minimal risk during cutover phases.",
+        "Co-led CI/CD migration by refactoring configuration and automating deployments, achieving a 40% reduction in release time through optimized Jenkins pipelines. Received Star of the Month award for this initiative.",
+        "Strengthened application security by resolving critical SecOps findings, remediating third-party vulnerabilities, enforcing secure API practices, and aligning system configurations with security benchmarks.",
+        "Orchestrated production rollouts through structured CAB procedures, creating exhaustive pre- and post-deployment checklists to ensure reliability and enable seamless rollbacks."
     ],
   },
   {
@@ -24,10 +24,10 @@ const experiences = [
     duration: 'Sept 2022 – Dec 2024',
     location: 'Bangalore, India',
     responsibilities: [
-        'Worked with .NET Core, ExtJS, React, SQL Server, and CI/CD pipelines.',
-        'Developed multiple UI components for ClaimsPortal application including PopUp, Dropdown, Checkbox, and Radio in react.', 
-        'Implemented SonarQube integration to improve code quality and maintainability.',
-        'Managed release processes, from creating checklists to raising CAB, and led deployments.'
+        'Designed reusable React UI components (checkboxes, Radio, modals, loaders, notifications), improving visual coherence and accelerating front-end velocity by 30%. Earned Star of the Month for this contribution.',
+        'Integrated SonarQube with front-end projects to enforce automated static code analysis, reducing bugs by more than 60%. Awarded Star of the Month for enhancing code quality.', 
+        'Contributed to full-stack development using .NET Core, React.js, ExtJS, and SQL Server, actively supporting agile delivery cycles and end-to-end DevOps processes across multiple enterprise-scale applications.',
+        'Revived a dormant legacy system (ContentsExpress) by provisioning a complete local dev environment with full backend connectivity, reactivating team productivity after five years of stagnation.'
     ],
   },
 ];
