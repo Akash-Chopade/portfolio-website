@@ -13,7 +13,7 @@ function Home() {
     <section id="home" className="home-section">
       <h1>Hey! I'm Akash Chopade</h1>
       <p>A Result-Oriented Software Engineer building and managing Websites and Web Applications that lead to the success of the overall product</p>
-      <a href='https://drive.google.com/file/d/1g9FuWw2JzWadVkgjXykS1oZfFuWsfaiK/view' target="_blank" rel="noreferrer"><Button label="Resume"/></a>
+      <a href='https://drive.google.com/file/d/1S2b3gBdMcdMQCe9uOOP5pOQ1O6R1vpF4/view' target="_blank" rel="noreferrer"><Button label="Resume"/></a>
     </section>
   );
 }
