@@ -33,14 +33,25 @@ function About() {
             <h3>My Skills</h3>
             <div className='skills'>
                 <Skill skill="C#"/>
-                <Skill skill="DotNet"/>
+                <Skill skill="React"/>
+                <Skill skill=".Net Framework"/>
+                <Skill skill=".NET Core"/>
+                <Skill skill="Python"/>
                 <Skill skill="HTML"/>
                 <Skill skill="CSS"/>
-                <Skill skill="React"/>
-                <Skill skill="Python"/>
                 <Skill skill="JavaScript"/>
-                <Skill skill="SQL"/>
+                <Skill skill="SQL Server"/>
+                <Skill skill="MySQL"/>
+                <Skill skill="ExtJs"/>
+                <Skill skill="Redis"/>
+                <Skill skill="RESTful APIs"/>
+                <Skill skill="Jenkins"/>
+                <Skill skill="Problem Solving"/>
+                <Skill skill="GitHub"/>
                 <Skill skill="Git"/>
+                <Skill skill="Docker"/>
+                <Skill skill="Kubernetes"/>
+                <Skill skill="Postman"/>
             </div>
         </div>
       </div>
