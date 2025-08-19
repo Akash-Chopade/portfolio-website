@@ -1,0 +1,281 @@
+/* Education Section Styles */
+.education {
+  padding: 120px 0;
+  background: var(--bg-primary);
+  transition: background-color var(--transition-speed) ease;
+  position: relative;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header Styles */
+.header {
+  text-align: center;
+  margin-bottom: 80px;
+  max-width: 600px;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 16px;
+  line-height: 1.2;
+}
+
+.titleUnderline {
+  width: 80px;
+  height: 4px;
+  background: var(--accent-primary);
+  margin: 0 auto 24px;
+  border-radius: 2px;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+/* Timeline Styles */
+.timeline {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 30px;
+  top: 0;
+  height: 100%;
+  width: 2px;
+  background: var(--border-color);
+  z-index: 1;
+}
+
+.timelineItem {
+  position: relative;
+  margin-bottom: 60px;
+  padding-left: 80px;
+  cursor: pointer;
+}
+
+.timelineItem:last-child {
+  margin-bottom: 0;
+}
+
+.timelineDot {
+  position: absolute;
+  left: 16px;
+  top: 24px;
+  width: 28px;
+  height: 28px;
+  background: var(--accent-primary);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--bg-primary);
+  font-size: 14px;
+  z-index: 2;
+  box-shadow: 0 0 0 4px var(--bg-primary);
+  border: 2px solid var(--bg-primary);
+  transition: all var(--transition-speed) ease;
+}
+
+.timelineItem:hover .timelineDot {
+  transform: scale(1.1);
+  box-shadow: 0 0 0 6px var(--bg-primary), 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Content Styles */
+.timelineContent {
+  background: var(--bg-secondary);
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border-color);
+  transition: all var(--transition-speed) ease;
+  position: relative;
+}
+
+.timelineContent::before {
+  content: "";
+  position: absolute;
+  left: -12px;
+  top: 32px;
+  width: 0;
+  height: 0;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  border-right: 12px solid var(--bg-secondary);
+  border-left: none;
+}
+
+.timelineItem:hover .timelineContent {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-hover);
+}
+
+/* Education Header */
+.educationHeader {
+  margin-bottom: 20px;
+}
+
+.degreeTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 8px;
+  line-height: 1.3;
+}
+
+.fieldOfStudy {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--accent-primary);
+  margin-bottom: 16px;
+  line-height: 1.3;
+}
+
+.institutionInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.institution {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1.4;
+}
+
+.metaItems {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.metaItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.metaItem svg {
+  width: 16px;
+  height: 16px;
+  color: var(--accent-primary);
+  flex-shrink: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .education {
+    padding: 80px 0;
+  }
+
+  .container {
+    padding: 0 16px;
+  }
+
+  .header {
+    margin-bottom: 60px;
+  }
+
+  .title {
+    font-size: 2.2rem;
+  }
+
+  .subtitle {
+    font-size: 1.1rem;
+  }
+
+  .timeline::before {
+    left: 20px;
+  }
+
+  .timelineItem {
+    padding-left: 60px;
+    margin-bottom: 40px;
+  }
+
+  .timelineDot {
+    left: 6px;
+    width: 24px;
+    height: 24px;
+    font-size: 12px;
+  }
+
+  .timelineContent {
+    padding: 24px;
+  }
+
+  .timelineContent::before {
+    left: -10px;
+    top: 24px;
+    border-right-width: 10px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+  }
+
+  .degreeTitle {
+    font-size: 1.3rem;
+  }
+
+  .fieldOfStudy {
+    font-size: 1rem;
+  }
+
+  .institution {
+    font-size: 1rem;
+  }
+
+  .metaItems {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .metaItem {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .education {
+    padding: 60px 0;
+  }
+
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .timelineContent {
+    padding: 20px;
+  }
+
+  .degreeTitle {
+    font-size: 1.2rem;
+  }
+}
