@@ -293,6 +293,12 @@
   .visual {
     order: -1;
     height: 300px;
+    margin-top: 60px; /* Prevents hiding behind navbar on mobile */
+  }
+  @media (max-width: 480px) {
+    .scrollDown {
+      display: none;
+    }
   }
 
   .avatar {

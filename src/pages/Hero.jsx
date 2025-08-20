@@ -223,7 +223,7 @@ const Hero = () => {
         </motion.div>
       </div>
 
-      {/* Scroll to next section */}
+      {/* Scroll to next section (hidden on mobile) */}
       <motion.button
         className={styles.scrollDown}
         onClick={() => {
@@ -237,6 +237,7 @@ const Hero = () => {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.5 }}
         aria-label="Scroll to about section"
+        style={{ display: "none" }}
       >
         <motion.div
           animate={{ y: [0, 5, 0] }}

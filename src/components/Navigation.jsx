@@ -30,10 +30,12 @@ const Navigation = () => {
 
   const handleNavClick = (href) => {
     setIsMobileMenuOpen(false);
-    const element = document.querySelector(href);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
+    setTimeout(() => {
+      const element = document.querySelector(href);
+      if (element) {
+        element.scrollIntoView({ top: 0, behavior: "smooth" });
+      }
+    }, 200); // Delay to allow menu to close and DOM to update
   };
 
   const handleLogoClick = () => {
