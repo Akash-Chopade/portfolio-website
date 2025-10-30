@@ -76,13 +76,13 @@ const Experience = () => {
 
                 <div className={styles.timelineContent}>
                   <div className={styles.experienceHeader}>
-                    <h3 className={styles.jobTitle}>{exp.title}</h3>
+                    <h3 className={styles.jobTitle}>{exp.position}</h3>
                     <div className={styles.jobMeta}>
                       <span className={styles.company}>{exp.company}</span>
                       <div className={styles.metaItems}>
                         <span className={styles.metaItem}>
                           <FiCalendar />
-                          {exp.period}
+                          {exp.duration}
                         </span>
                         <span className={styles.metaItem}>
                           <FiMapPin />
