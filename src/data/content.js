@@ -1,14 +1,14 @@
 // Content Configuration File
 // This file contains all text content for the portfolio website
-// Modify this file to update any text throughout the application
+// Updated to include resume points and additional accomplishments
 
 export const content = {
   // Personal Information
   personal: {
-    name: "Akash",
+    name: "Akash Chopade",
     title: "Full-Stack Developer",
     tagline:
-      "Full-Stack Developer with 3+ years of experience in building scalable enterprise solutions",
+      "Full-Stack Developer with 3+ years of experience building scalable enterprise solutions with React.js, .NET Core, and SQL Server",
     email: "akashchopade8686@gmail.com",
     phone: "+91 8888399386",
     location: "Pune, Maharashtra",
@@ -31,7 +31,7 @@ export const content = {
   hero: {
     greeting: "Hello, I'm",
     description:
-      "Full-Stack Developer with 3+ years of experience in building scalable enterprise solutions using React.js, .NET Core, and SQL Server. Proven in CI/CD automation, security compliance, and cross-team collaboration.",
+      "Full-Stack Developer with 3+ years of experience building enterprise-scale applications using React.js, .NET Core, and SQL Server. Experienced in CI/CD automation, SQL migrations, SecOps compliance, and improving release efficiency, code quality, and application stability.",
     primaryCTA: "Download Resume",
     secondaryCTA: "Get In Touch",
   },
@@ -41,19 +41,21 @@ export const content = {
     title: "About Me",
     subtitle: "Get to know me better",
     description: [
-      "Full-Stack Developer with 3+ years of experience in building scalable enterprise solutions using React.js, .NET Core, and SQL Server. I specialize in creating robust web applications with a strong focus on CI/CD automation, security compliance, and cross-team collaboration.",
-      "Currently working as Software Engineer II at Solera, where I've led critical SQL Server migrations, optimized CI/CD pipelines achieving 40% reduction in release time, and strengthened application security by resolving critical SecOps findings. I've been recognized multiple times with Star of the Month awards for my contributions.",
-      "I'm passionate about writing clean, maintainable code and following best practices in software development. My approach combines technical expertise with strong problem-solving skills to deliver solutions that not only meet requirements but exceed expectations.",
+      "Senior Full-Stack Developer with expertise in React.js, .NET Core, and SQL Server. Skilled in CI/CD pipeline automation, security compliance, system migrations, and cross-functional collaboration.",
+      "Currently working as Software Engineer II at Solera, leading SQL Server migrations, optimizing CI/CD pipelines, integrating ProGet for artifact management, and strengthening application security posture. Recognized multiple times with Star of the Month awards for CI/CD, code quality, and platform stability improvements.",
+      "Passionate about writing clean, maintainable code and creating scalable solutions. I combine technical expertise with problem-solving skills to deliver results that exceed expectations.",
     ],
     highlights: {
       title: "What I Do",
       items: [
         "Enterprise-grade SQL Server migration and database management",
-        "CI/CD pipeline optimization and automation with Jenkins",
+        "CI/CD pipeline transformation and automation with Jenkins and GitHub Actions",
+        "Artifact management using ProGet for improved release traceability",
         "Full-stack development with React.js, .NET Core, and ExtJS",
-        "Application security and SecOps compliance",
-        "UI component design and front-end architecture",
-        "DevOps processes and production deployment management",
+        "Application security and SecOps compliance, resolving high-priority vulnerabilities",
+        "UI component design and front-end architecture for scalable applications",
+        "Production release management, CAB preparation, and risk mitigation",
+        "Unit testing and code quality enforcement using SonarQube and Copilot Agent",
       ],
     },
     stats: [
@@ -75,23 +77,31 @@ export const content = {
         duration: "Dec 2024 - Present",
         location: "Bengaluru, Karnataka",
         description:
-          "Leading an enterprise-grade SQL Server migration, coordinating with DBAs and infrastructure teams to ensure data accuracy, service continuity, and minimal risk during cutover phases.",
+          "Leading enterprise-scale SQL Server migrations, CI/CD transformations, and application security improvements while coordinating with cross-functional teams for stable releases and high-quality code.",
         achievements: [
-          "Led enterprise-grade SQL Server migration with DBAs and infrastructure teams",
-          "Co-led CI/CD migration achieving 40% reduction in release time through optimized Jenkins pipelines",
-          "Strengthened application security by resolving critical SecOps findings and enforcing secure API practices",
-          "Orchestrated production rollouts through structured CAB procedures with comprehensive checklists",
-          "Received Star of the Month award for CI/CD migration initiative",
+          "Co-led CI/CD transformation for 10+ components, reducing release failures and improving deployment efficiency by 40%",
+          "Migrated and optimized pipelines for Audit Services, WebHandler, and AdminSC; ensured stable deployments across environments",
+          "Integrated ProGet for artifact management, improving release traceability and consistency",
+          "Created ClaimPortalIntegrator repository and integrated SonarQube and Health API checks",
+          "Resolved recurring pipeline failures by debugging scripts, managing URL changes, and addressing environment-specific issues",
+          "Led SQL Server migrations across all lower environments, verified application connectivity, and ensured post-migration system stability",
+          "Resolved 80%+ code smells and all high-priority vulnerabilities in myClaimPortal, enhancing security and maintainability",
+          "Delivered majority of UI stories for MyClaimPortal and PlatformSC, built reusable components (radio buttons, checkboxes, dropdowns, popups, loaders)",
+          "Prepared detailed CAB documentation, release notes, deployment guides, and rollback plans for multiple releases",
+          "Leveraged Copilot Agent to write unit tests covering 80%+ of myClaimPortal and accelerate feature development",
+          "Received 2× Star of the Month awards for CI/CD automation and code quality improvements",
         ],
         technologies: [
-          ".NET Framework",
           ".NET Core",
+          ".NET Framework",
           "React.js",
           "SQL Server",
           "Jenkins",
           "Docker",
           "Kubernetes",
           "ExtJS",
+          "ProGet",
+          "SonarQube",
         ],
       },
       {
@@ -100,17 +110,20 @@ export const content = {
         duration: "Dec 2022 - Dec 2024",
         location: "Bengaluru, Karnataka",
         description:
-          "Designed reusable React UI components and integrated quality assurance tools while contributing to full-stack development across multiple enterprise-scale applications.",
+          "Designed reusable React UI components, improved code quality, and contributed to full-stack development across multiple enterprise-scale applications.",
         achievements: [
-          "Designed reusable React UI components improving visual coherence and accelerating front-end velocity by 30%",
-          "Integrated SonarQube with front-end projects reducing bugs by more than 60%",
+          "Designed reusable React UI components (radio, checkbox, dropdowns, popups, loaders), improving sprint delivery by 30%",
+          "Integrated SonarQube with front-end projects, reducing bugs and code smells by 60%+",
+          "Revived dormant ContentsExpress application by provisioning complete dev environment after 5 years",
+          "Resolved production issues in PayeeController, claim calculations, date-related errors, and notes filtering",
           "Contributed to full-stack development using .NET Core, React.js, ExtJS, and SQL Server",
-          "Revived dormant legacy system (ContentsExpress) by provisioning complete local dev environment",
-          "Earned Star of the Month awards for UI components and code quality enhancements",
+          "Prepared for CAB releases, coordinated with QA and DevOps to ensure zero-rollback deployments",
+          "Earned Star of the Month awards for UI component delivery and code quality enhancements",
         ],
         technologies: [
           "React.js",
           "ExtJS",
+          ".NET Core",
           ".NET Framework",
           "SQL Server",
           "SonarQube",
@@ -128,26 +141,24 @@ export const content = {
       {
         degree: "Bachelor of Engineering",
         field: "Information Technology",
-        institution: "Savitribai Phule Pune University", // Update with actual college name
-        duration: "2018 - 2022", // Update with actual years
+        institution: "Savitribai Phule Pune University",
+        duration: "2018 - 2022",
         grade: "9.34 CGPA",
-        location: "Pune, Maharashtra", // Update with actual location
+        location: "Pune, Maharashtra",
       },
       {
         degree: "12th (HSC)",
         field: "Science",
-        //institution: "Your College Name", // Update with actual college name
-        duration: "2016 - 2018", // Update with actual years
+        duration: "2016 - 2018",
         grade: "71.20%",
-        location: "Pune, Maharashtra", // Update with actual location
+        location: "Pune, Maharashtra",
       },
       {
         degree: "10th (SSC)",
         field: "",
-        //institution: "Your School Name", // Update with actual school name
-        duration: "2016", // Update with actual year
+        duration: "2016",
         grade: "86.20%",
-        location: "Pune, Maharashtra", // Update with actual location
+        location: "Pune, Maharashtra",
       },
     ],
   },
@@ -182,21 +193,37 @@ export const content = {
       subtitle: "Other competencies and soft skills",
       categories: [
         {
-          name: "Leadership & Management",
+          name: "CI/CD & DevOps",
+          skills: [
+            "Pipeline Automation",
+            "Jenkins",
+            "GitHub Actions",
+            "Docker",
+            "Kubernetes",
+            "ProGet",
+            "SonarQube",
+            "New Relic",
+            "Graylog",
+          ],
+        },
+        {
+          name: "Security & Quality",
+          skills: [
+            "SecOps Compliance",
+            "Code Smell Resolution",
+            "Bug Fixing",
+            "Vulnerability Remediation",
+          ],
+        },
+        {
+          name: "Leadership & Problem Solving",
           skills: [
             "Team Leadership",
             "Project Management",
             "Cross-functional Collaboration",
-            "Stakeholder Communication",
-          ],
-        },
-        {
-          name: "Problem Solving",
-          skills: [
-            "System Architecture Design",
+            "System Architecture",
             "Performance Optimization",
             "Debugging & Troubleshooting",
-            "Security Compliance",
             "Database Migration",
           ],
         },
@@ -204,13 +231,9 @@ export const content = {
           name: "Methodologies",
           skills: [
             "Agile/Scrum",
-            "CI/CD Best Practices",
-            "Code Review",
             "Test-Driven Development",
+            "CI/CD Best Practices",
             "DevOps Practices",
-            "SonarQube",
-            "New Relic",
-            "Gray Logs",
           ],
         },
       ],
@@ -225,7 +248,7 @@ export const content = {
       {
         title: "Weed Detection System",
         description:
-          "Built a YOLOv3-based system to detect weed in crop images using Python and SQLite. Improved agricultural analysis speed and accuracy for early-stage weed identification.",
+          "Built a YOLOv3-based system to detect weed in crop images using Python and SQLite. Improved early-stage agricultural analysis speed and accuracy.",
         technologies: [
           "Python",
           "YOLOv3",
@@ -235,8 +258,8 @@ export const content = {
         ],
         features: [
           "Real-time weed detection in crop images",
-          "YOLOv3 deep learning model implementation",
-          "SQLite database for image storage and results",
+          "YOLOv3 deep learning model",
+          "SQLite database for storing images and results",
           "Improved agricultural analysis accuracy",
         ],
         liveUrl: null,
@@ -247,7 +270,7 @@ export const content = {
       {
         title: "Weather Scraper",
         description:
-          "Developed a real-time weather tracker using Python with BeautifulSoup and Requests. Parsed and displayed city-wise updates from Times of India with a lightweight CLI tool.",
+          "Developed a real-time weather tracker using Python (BeautifulSoup, Requests) to parse and display city-wise updates from Times of India via a lightweight CLI tool.",
         technologies: [
           "Python",
           "BeautifulSoup",
@@ -259,7 +282,7 @@ export const content = {
           "Real-time weather data scraping",
           "City-wise weather updates",
           "Lightweight command-line interface",
-          "Data parsing from Times of India website",
+          "Data parsing from Times of India",
         ],
         liveUrl: "https://weatherreporttoi.netlify.app/",
         githubUrl: "https://github.com/Akash-Chopade",
@@ -269,7 +292,7 @@ export const content = {
       {
         title: "Portfolio Website",
         description:
-          "Designed a responsive portfolio using React and Tailwind CSS. Automated CI/CD with GitHub Actions and deployed via Netlify; features project and blog sections.",
+          "Designed a responsive portfolio using React and Tailwind CSS. Automated CI/CD with GitHub Actions and deployed via Netlify; includes projects and blog sections.",
         technologies: [
           "React",
           "Tailwind CSS",
@@ -340,7 +363,7 @@ export const content = {
     author: "Akash Chopade",
     ogTitle: "Akash Chopade - Full-Stack Developer Portfolio",
     ogDescription:
-      "Full-Stack Developer with expertise in React.js, .NET Core, and enterprise application development",
+      "Full-Stack Developer with expertise in React.js, .NET Core, CI/CD automation, SQL migrations, and enterprise application development",
     ogUrl: "https://akashchopade.netlify.app",
     ogImage: "https://akashchopade.netlify.app/og-image.jpg",
   },
