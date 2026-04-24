@@ -13,7 +13,7 @@ export const content = {
     phone: "+91 8888399386",
     location: "Pune, Maharashtra",
     resume:
-      "https://drive.google.com/file/d/1PTJpql2-w4gevlFyfxupjF51-u_NT8gr/view",
+      "https://drive.google.com/file/d/1ldTbnAO_onTB9TXLYKBQL1_N8NSbXTIe/view",
   },
 
   // Navigation Menu
